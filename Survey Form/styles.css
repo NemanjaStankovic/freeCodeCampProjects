@@ -1,0 +1,49 @@
+body {
+  background-image: url(https://icom.museum/wp-content/uploads/2018/07/advice-business-colleagues-1161465.jpg);
+}
+.forma {
+  background-color:bisque;
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width:600px;
+  padding:10px;
+}
+#title, #description {
+  margin: 2pem auto;
+  text-align: center;
+  font-family: Tahoma;
+}
+
+input, select, textarea {
+  background-color:BurlyWood;
+  border-color:burlywood;
+  margin-top: 0.75em;
+}
+
+fieldset{
+  border:none;
+  border-top:3px solid BurlyWood;
+  padding:1.5em;
+}
+fieldset:last-of-type {
+  border-bottom:3px solid BurlyWood;
+  margin-bottom:1em;
+}
+legend{
+  font-size:1.75;
+}
+
+.inline, .lang{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.lang{
+  grid-template-columns: 1fr 1fr;
+}
+
+#submit{
+  display:block;
+  background-color:BurlyWood;
+  margin: auto auto;
+}

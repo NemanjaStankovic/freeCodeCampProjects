@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Dodavanje osobe</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="forma">
+      <h1 id="title">Prijava</h1>
+      <p id="description">Prijava za posao</p>
+      <form id="survey-form">
+        <fieldset>
+          <legend>Osnovne informacije</legend>
+        <label id="name-label" for="name">Ime <input required placeholder="Marko Markovic" id="name" type="text"></label>
+        <label id="email-label" for="email">Email <input required placeholder="marko55@gmail.com" id="email" type="email"></label>
+        <label id="number-label">Godine <input id="number" type="number" placeholder="18" min=18 max=100 ></label>
+        </fieldset>
+        <fieldset>
+        <legend>Dodatne informacije</legend>
+        <label>Obrazovanje <select id="dropdown">
+          <option>Osnovna skola</option>
+          <option>Srednja skola</option>
+          <option>Viša škola / Fakultet</option>
+        </select></label>
+        </fieldset>
+        <fieldset>
+        <label>Pol: 
+        <div class="inline">
+          <label for="pol-m"><input id="pol-m" name="pol" value="musko" type="radio"> Musko</label>
+          <label for="pol-z"><input checked id="pol-z" name="pol" value="zensko" type="radio"> Zensko</label></label>
+        </div>
+        </fieldset>
+        <fieldset>
+        <label>Jezik:
+        <div class="lang">
+        <label><input type="checkbox" name="lang" value="engleski"> Engleski</label>
+        <label><input type="checkbox" name="lang" value="nemacki"> Nemacki</label>
+        <label><input type="checkbox" name="lang" value="francuski"> Francuski</label>
+        <label><input type="checkbox" name="lang" value="ruski"> Ruski</label></label>
+        </div>
+        </fieldset>
+        <fieldset>
+        <label>Enter additional comments:
+        <textarea rows="4" cols="30" placeholder="Enter additional comments..."></textarea>
+        </label>
+        </fieldset>
+        <button id="submit" type="submit">Submit</button>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
