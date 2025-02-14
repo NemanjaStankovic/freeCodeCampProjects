@@ -1,0 +1,36 @@
+body {
+  background:LightSlateGrey;
+}
+p1, input, button {
+  margin: auto auto;
+  display:block;
+  text-align:center;
+}
+p1 {
+  font-family:Arial;
+  font-size:20px;
+  margin-bottom: 10px;
+  color:#4d4d62;
+}
+input{
+  width:80%;
+  max-width:500px;
+  border:none;
+  border-bottom:solid Navy;
+  background-color:#4d4d62;
+  color:MintCream;
+}
+button{
+  margin: 10px auto;
+  background-color:Navy;
+  border-color:Navy;
+  color:MintCream;
+}
+#result{
+  text-align:center;
+  color:MintCream;
+  background-color:#4d4d62;
+  margin:auto auto;
+  width:80%;
+  max-width:500px;
+}
